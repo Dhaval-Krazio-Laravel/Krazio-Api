@@ -1,0 +1,18 @@
+# Ignore node modules
+node_modules
+
+# Ignore vendor (Composer will install inside container)
+vendor
+
+# Git files
+.git
+.gitignore
+
+# Docker files
+Dockerfile
+docker-compose.yml
+
+# OS / Editor files
+*.log
+*.env
+*.DS_Store
